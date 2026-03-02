@@ -2,7 +2,6 @@ package CompositePattern.GoodDesign;
 
 import java.util.ArrayList;
 import java.util.List;
-
 interface FileSystemItem {
     int getSize();
     void printStructure(String indent);
