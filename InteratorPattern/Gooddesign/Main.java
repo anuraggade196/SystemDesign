@@ -20,7 +20,7 @@ class PlaylistIterator implements VideoIterator{
     private int index =0;
 
     public PlaylistIterator(List<Video>videos){
-        this.videos = videos;
+        this.videos = videos ;
     }
     public boolean hasNext(){
         return index < videos.size();
